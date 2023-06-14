@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    width: 30%;
+    margin: 10px;
+}
+
+.title-image {
+    width: 100%;
+}
+
+.nav-item {
+    font-size: 30px;
+}
+
+.waterpark-nav-logo {
+    height: 40px;
+}
+
+.corousal-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px;
+    font-size: 35px;
+    font-family: lobster;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .heading {
+        font-size: 65px;
+    }
+}
+
+.students-offer {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .students-offer {
+        font-size: 26px;
+    }
+}
+
+.lazy-image {
+    height: 180px;
+}
+
+@media screen and (min-width:768px) {
+    .lazy-image {
+        height: 250px;
+    }
+}
+
+.kobra-image {
+    height: 150px;
+}
+
+@media screen and (min-width:768px) {
+    .kobra-image {
+        height: 250px;
+    }
+}
+
+.lazy-details {
+    font-size: 12px;
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .lazy-details {
+        font-size: 18px;
+    }
+}
+
+.lazzy-heading {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+    .lazzy-heading {
+        font-size: 32px;
+    }
+}
+
+.lazyy-item-container {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin: 20px;
+    background-color: skyblue;
+    border-radius: 20px;
+}
+
+.wavepool-item-container {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin: 20px;
+    background-color: #F5F5F4;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.food-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.food-counter-heading {
+    text-align: center;
+    font-family: lobster;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.food-containers {
+    margin: 10px;
+}
+
+.pizaa-image {
+    width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+    .pizaa-image {
+        width: 220px;
+    }
+}
+
+.food-heading {
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .food-heading {
+        font-size: 22px;
+    }
+}
+
+.discount-heading {
+    font-family: Roboto;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.note-para {
+    font-size: 14px;
+    font-family: "Roboto";
+    padding: 20px;
+}
+
+.horizontal-line {
+    border-width: 5px;
+    margin: 20px;
+
+}
+
+.bttn {
+    align-self: center;
+}
+
+.iconn {
+    padding: 30px;
+}
+
+.icon-container {
+    align-self: center;
+}
+
+.booking-container {
+    background: linear-gradient(to left, skyblue, #F5F5F4);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-list-container {
+    margin: 30px;
+}
+
+.list-heading {
+    font-size: 20px;
+    text-decoration: underline;
+}
